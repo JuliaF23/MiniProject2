@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Load the dataset
 df = pd.read_csv("netflix_data.csv")
 
 # Filter only movies from the 1990s
@@ -11,11 +10,11 @@ movies_90s = df[(df["type"] == "Movie") &
 # Drop rows where duration is missing
 movies_90s = movies_90s.dropna(subset=["duration"])
 
-# Find the most frequent duration (mode)
+# Find the most frequent duration 
 most_common_duration = movies_90s["duration"].mode()[0]
 print("Most frequent movie duration in the 1990s:", most_common_duration)
 
-# Count short action movies (duration < 90)
+# Count short action movies
 short_action_movies = movies_90s[(movies_90s["duration"] < 90) &
                                  (movies_90s["genre"].str.contains("Action", na=False))]
 
@@ -26,7 +25,6 @@ print("Number of short action movies in the 1990s:", short_movie_count)
 # Count how many are Dramas
 romance_count = df["genre"].str.contains("Dramas", na=False).sum()
 print("\nNumber of Dramas titles:", romance_count)
-
 
 # Count all Brazilian titles 
 brazil_total = df["country"].str.contains("Brazil", na=False).sum()
