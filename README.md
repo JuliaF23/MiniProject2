@@ -22,11 +22,11 @@ This project analyzes whether the **average duration of movies on Netflix** has 
 
 ## Files
 
-- ´netflix_data.csv` — Source data
-- ´Data_cleaning_part1.py` - Cleaning the source data
-- ´netflix_cleaned.csv` - Clean data to be used in Part 1.py
-- ´Part1.py` or ´Part2.py` — Main analysis
-- ´README.md` — This file
+- ´netflix_data.csv´ — Source data
+- ´Data_cleaning_part1.py´ - Cleaning the source data
+- ´netflix_cleaned.csv´ - Clean data to be used in Part 1.py
+- ´Part1.py´ or ´Part2.py´ — Main analysis
+- ´README.md´ — This file
 
 
 <br>
@@ -57,8 +57,8 @@ Este projeto analisa se a **duração média dos filmes na Netflix** tem **dimin
 
 ## Arquivos
 
-- ´netflix_data.csv` — Base de dados
-- ´Data_cleaning_part1.py` - Limpando a base de dados
-- ´netflix_cleaned.csv` - Base de dados limpa para ser usada na Part1.py
-- ´Part1.py` or ´Part2.py` — Análise principal
-- ´README.md` — Este arquivo
+- ´netflix_data.csv´ — Base de dados
+- ´Data_cleaning_part1.py´ - Limpando a base de dados
+- ´netflix_cleaned.csv´ - Base de dados limpa para ser usada na Part1.py
+- ´Part1.py´ or ´Part2.py´ — Análise principal
+- ´README.md´ — Este arquivo
